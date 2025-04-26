@@ -6,6 +6,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import UserMixin
 from flask_login import LoginManager
 from flask_marshmallow import Marshmallow 
+from marshmallow_sqlalchemy import SQLAlchemyAutoSchema
 import secrets
 
 # set variables for class instantiation
